@@ -1,0 +1,76 @@
+{
+  "students": [
+    {
+      "id": "b27997d6-94c9-4a89-b40e-0f82f736a295",
+      "name": "Tran Van A",
+      "email": "tranvana@gmail.com",
+      "phoneNumber": "913456789"
+    },
+    {
+      "id": "7ab27c7a-50d0-46de-83e6-e8976d8532ee",
+      "name": "Nguyen Van B",
+      "email": "b@gmail.com",
+      "phoneNumber": "913453289"
+    },
+    {
+      "id": "989fd339-c4d3-471a-b270-105b4f8257f7",
+      "name": "Vu Thi C",
+      "email": "c@gmail.com",
+      "phoneNumber": "913456789"
+    },
+    {
+      "id": "97dff032-69be-44ce-b226-d2a549e02368",
+      "name": "Pham Manh D",
+      "email": "d@gmail.com",
+      "phoneNumber": "933456789"
+    },
+    {
+      "id": "b810a35a-5ebe-4ddf-ac3f-e8ef0d311316",
+      "name": "Nguyen Minh E",
+      "email": "e@gmail.com",
+      "phoneNumber": "913452289"
+    }
+  ],
+  "books": [
+    {
+      "id": "3c26b42a-b4cd-42fe-9d96-92bd74b449cc",
+      "title": "First Lie Wins: A Novel",
+      "quantity": "150"
+    },
+    {
+      "id": "39e05211-71e4-488f-b9b7-9f33332933a4",
+      "title": "Demon Copperhead: A Novel",
+      "quantity": "200"
+    },
+    {
+      "id": "189026fa-f48a-4504-958f-bbb6446f70ff",
+      "title": "A Calamity of Souls",
+      "quantity": "112"
+    },
+    {
+      "id": "e4ebf76d-0863-4ccf-ab07-32860de2926f",
+      "title": "Wind and Truth: Book Five of the Stormlight Archive",
+      "quantity": "123"
+    },
+    {
+      "id": "80d43794-0bdf-4f58-aab7-01cfd6f14db8",
+      "title": "A Death in Cornwall: A Novel (Gabriel Allon Book 24)",
+      "quantity": "321"
+    },
+    {
+      "id": "dde4d09c-cd4d-4245-9100-e69d22ad353b",
+      "title": "Dark Matter: A Novel",
+      "quantity": "232"
+    },
+    {
+      "id": "2659d8e5-d79c-4dee-9438-2e8a36ab5016",
+      "title": "Falling Up (The Boy in the Iron Box Book 5)",
+      "quantity": "5000"
+    },
+    {
+      "id": "e5e3a1ad-d9e7-4137-b50a-1bfead3bc2d6",
+      "title": "Trrdds",
+      "quantity": "1"
+    }
+  ]
+}
