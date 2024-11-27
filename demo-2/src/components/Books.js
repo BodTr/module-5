@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
+import { Formik } from "formik";
+import * as Yup from 'yup';
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
@@ -30,7 +32,7 @@ function Books() {
     title: "",
     quantity: "",
   });
-  const [deleteSId, setDeleteId] = useState("");
+  const [deleteBId, setDeleteId] = useState("");
   const [isUpdateMode, setIsUpdateMode] = useState(false);
 
   const handleClose1 = () => setShowDeleteModal(false);
@@ -89,12 +91,19 @@ function Books() {
     handleClose();
   }
 
-  function deleteS() {
-    setBooksList((prevState) => prevState.filter((s) => s.id !== deleteSId));
-    handleClose1();
+  async function deleteS() {
+    try {
+      const res = await axios.delete(`http://localhost:3000/books/${deleteBId}`);
+      console.log(res, "delete book api res");
+      initBooksList();
+      handleClose1();
+    } catch (error) {
+      console.log(error, "delete book api error")
+    }
+    
   }
 
-  function deleteBok(id) {
+  function deleteBook(id) {
     handleOpen1();
     setDeleteId(id);
   }
@@ -144,7 +153,7 @@ function Books() {
                           <span>
                             <Button
                               variant="danger"
-                              onClick={() => deleteBok(book.id)}
+                              onClick={() => deleteBook(book.id)}
                             >
                               Delete book
                             </Button>
@@ -165,6 +174,7 @@ function Books() {
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
+
             <Form>
               <Form.Group className="mb-3">
                 <Form.Label>Title</Form.Label>
