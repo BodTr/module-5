@@ -1,0 +1,67 @@
+{
+  "songs": [
+    {
+      "id": "2d1932a2-63ec-4f7d-9073-935bd413ff13",
+      "name": "Hoa Cúc Vàng",
+      "singer": "Phan Mạnh Quỳnh",
+      "composer": "Phan Mạnh Quỳnh",
+      "duration": "4:15",
+      "like": "500",
+      "status": "Công khai"
+    },
+    {
+      "id": "5bc7301f-7cb4-4f8a-90f0-cb9f453eb387",
+      "name": "Vì Yêu Cứ Đợi",
+      "singer": "Erik",
+      "composer": "Erik, Châu Đăng Khoa",
+      "duration": "3:45",
+      "like": "10",
+      "status": "Công khai"
+    },
+    {
+      "id": "630e6fdb-a452-4c58-b667-ff23601ee3c1",
+      "name": "Mơ Về Anh",
+      "singer": "Bảo Anh",
+      "composer": "Đỗ Hiếu",
+      "duration": "4:00",
+      "like": "35",
+      "status": "Công khai"
+    },
+    {
+      "id": "8e6be68e-c01b-4921-ac54-1cdd68e05188",
+      "name": "Đừng Rời Xa Tôi",
+      "singer": "Dương Hoàng Yến",
+      "composer": "Dương Hoàng Yến",
+      "duration": "4:30",
+      "like": "77",
+      "status": "Công khai"
+    },
+    {
+      "id": "7bdeb485-3f3c-4af5-babc-382d92898f0e",
+      "name": "Em Gì Ơi",
+      "singer": "Châu Khải Phong",
+      "composer": "Châu Khải Phong",
+      "duration": "3:20",
+      "like": "15",
+      "status": "Công khai"
+    },
+    {
+      "id": "93745a29-5b29-4130-b020-6219e90a5417",
+      "name": "werw",
+      "singer": "qweq",
+      "composer": "qweq",
+      "duration": "04:30",
+      "like": "123",
+      "status": "Công khai"
+    },
+    {
+      "id": "bdd8d0ce-2ef2-4ba1-9b11-7b796f356394",
+      "name": "dqwd",
+      "singer": "qwwd",
+      "composer": "qwdqw",
+      "duration": "03:30",
+      "like": "232",
+      "status": "Công khai"
+    }
+  ]
+}

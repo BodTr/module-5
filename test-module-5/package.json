@@ -1,29 +1,22 @@
 {
-  "name": "demo-2",
+  "name": "test-module-5",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://BodTr.github.io/module-5/tree/master/demo-2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.8",
     "bootstrap": "^5.3.3",
-    "formik": "^2.4.6",
     "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
-    "react-bootstrap": "^2.10.5",
+    "react-bootstrap": "^2.10.6",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.0.1",
-    "react-scripts": "^5.0.1",
-    "react-toastify": "^10.0.6",
+    "react-scripts": "5.0.1",
     "uuid": "^11.0.3",
-    "web-vitals": "^2.1.4",
-    "yup": "^1.4.0"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,8 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
   }
 }

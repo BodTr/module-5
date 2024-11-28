@@ -174,7 +174,35 @@ function Books() {
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
+            <Formik
+              initialValues={{title: "", quantity: ""}}
+              validationSchema={Yup.object({
+                title: Yup.string()
+                  .max(100, "Must be 100 character or less")
+                  .required('Required'),
+                quantity: Yup.number()
+                  .integer("Must be an int")
+                  .positive("Must be > 0")
+                  .required('Required'),
+              })}
+              onSubmit={async (values, {setSubmitting}) => {
+                try {
+                  setSubmitting(true);
+                  if (!isUpdateMode) {
+                    const data = {...values, id: uuidv4()}
+                    const res = await axios.post("http://localhost:3000/books", data)
+                    console.log(res, "res create book api")
+                    
+                  } else {
+                    
+                  }
+                } catch (error) {
+                  
+                }
+              }}
+            >
 
+            </Formik>
             <Form>
               <Form.Group className="mb-3">
                 <Form.Label>Title</Form.Label>
